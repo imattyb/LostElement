@@ -23,6 +23,9 @@ namespace LostElement
             bundles.Add(new ScriptBundle("~/bundles/modernizr").Include(
                         "~/Scripts/modernizr-*"));
 
+            bundles.Add(new ScriptBundle("~/bundles/cycle").Include(
+                        "~/Scripts/cycle/jquery.cycle2.*"));
+
             bundles.Add(new StyleBundle("~/Content/css").Include("~/Content/css/site.css"));
 
             bundles.Add(new StyleBundle("~/Content/themes/base/css").Include(

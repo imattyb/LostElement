@@ -15,15 +15,23 @@
                         <a id="facebook-icon" href="http://www.facebook.com" target="_blank"><img width="35" src="@Url.Content("~/Content/images/facebook-icon.png")"/></a>
                     </div>
                 </div>
-            <div id="MainImage">
-                <img id="HeaderImage" src="@Url.Content("~/Content/images/idragons.jpg")"/>
-            </div>
+                <div id="MainImage">
+                    <div class="cycle-slideshow" data-cycle-pause-on-hover="true" data-cycle-speed="1000">
+                        <img class="headerImage" src="@Url.Content("~/Content/images/idragons.jpg")" alt="Dragons">
+                        <img class="headerImage" src="@Url.Content("~/Content/images/dark-abstract-b-6.jpg")" alt="Abstract">
+                        <img class="headerImage" src="@Url.Content("~/Content/images/sunset-pic-1.jpg")" alt="Sunset1">
+                        <img class="headerImage" src="@Url.Content("~/Content/images/sunset-pic-2.jpg")" alt="Sunset2">
+                        <img class="headerImage" src="@Url.Content("~/Content/images/susnset-pic-3.jpg")" alt="Sunset3">
+                        <img class="headerImage" src="@Url.Content("~/Content/images/sunset-pic-4.jpg")" alt="Sunset4">
+                    </div>
+                </div>
         </div>
         @RenderBody()
         
         </div>
         
         @Scripts.Render("~/bundles/jquery")
+        @Scripts.Render("~/bundles/cycle")
         @RenderSection("scripts", required: false)
     </body>
 </html>

@@ -30,7 +30,7 @@
 	box-shadow: inset 0px 3px 5px -1px rgba(255, 255, 255, 0.3), inset 0px -3px 5px 0px rgba(0, 0, 0, 0.5), 0px 4px 7px 0px rgba(0, 0, 0, 0.7);
 }
 
-#HeaderImage {
+.headerImage {
 	width: 100%;
 }
 

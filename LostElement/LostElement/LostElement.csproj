@@ -130,9 +130,14 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\css\fluidbox.css" />
+    <Content Include="Content\images\dark-abstract-b-6.jpg" />
     <Content Include="Content\images\logo.jpg" />
     <Content Include="Content\images\facebook-icon.png" />
     <Content Include="Content\images\idragons.jpg" />
+    <Content Include="Content\images\sunset-pic-1.jpg" />
+    <Content Include="Content\images\sunset-pic-2.jpg" />
+    <Content Include="Content\images\sunset-pic-4.jpg" />
+    <Content Include="Content\images\susnset-pic-3.jpg" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />
