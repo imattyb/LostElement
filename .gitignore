@@ -1,0 +1,31 @@
+# Build Folders (you can keep bin if you'd like, to store dlls and pdbs)
+bin
+obj
+PrecompiledWeb
+*.publish.xml
+
+# test results
+TestResults
+TestResults.*
+
+# Resharper
+_ReSharper.*
+
+# NCrunch
+*.ncrunch*
+.*crunch*.local.xml
+
+# User-specific settings
+*.suo
+*.user
+*.cache
+
+# Test Output
+output
+*.log
+
+# NuGet Packages Directory
+packages
+
+# Vim swap files
+*.swp

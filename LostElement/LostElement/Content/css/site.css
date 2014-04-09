@@ -1,0 +1,82 @@
+﻿body {
+	font-size: .85em;
+    font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif;
+    color: #000;
+    background-color: #fff;
+}
+
+#SiteWrapper {
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0 auto;
+	background: linear-gradient(#fff, #357AFC);
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+
+#HeaderWrapper {
+	width: 100%;
+}
+
+#HeaderBar {
+	width: 100%;
+	height: 42px;
+	background: linear-gradient(#333, #222);
+	border-top: 1px solid #222;
+	border-bottom: 1px solid #000;
+	-webkit-box-shadow: inset 0px 3px 5px -1px rgba(255, 255, 255, 0.3), inset 0px -3px 5px 0px rgba(0, 0, 0, 0.5), 0px 4px 7px 0px rgba(0, 0, 0, 0.7);
+	-moz-box-shadow: inset 0px 3px 5px -1px rgba(255, 255, 255, 0.3), inset 0px -3px 5px 0px rgba(0, 0, 0, 0.5), 0px 4px 7px 0px rgba(0, 0, 0, 0.7);
+	box-shadow: inset 0px 3px 5px -1px rgba(255, 255, 255, 0.3), inset 0px -3px 5px 0px rgba(0, 0, 0, 0.5), 0px 4px 7px 0px rgba(0, 0, 0, 0.7);
+}
+
+#HeaderImage {
+	width: 100%;
+}
+
+#HeaderCircle {
+	width: 180px;
+	height: 180px;
+	-moz-border-radius: 92px;
+	-webkit-border-radius: 92px;
+	border-radius: 92px;
+	border: solid 2px #fff;
+	background-color: #000;
+	margin: 0 auto;
+}
+
+#MainImage {
+	width: 100%;
+	max-height: 350px;
+	overflow: hidden;
+}
+
+#icons {
+	margin: 0 auto;
+	width: 50px;
+	margin-top: 3px;
+}
+
+#icons a {
+	opacity: .5;
+}
+
+#icons a:hover {
+	opacity: .9;
+}
+
+#FloatingLogoWrapper {
+	width: 100%;
+	height: 100%;
+	float: left;
+	text-align: center;
+	padding: 300px;
+	/*background-image: url(/Content/Images/logo.jpg)*/
+}
+
+#FloatingLogo {
+	width: 400px;
+	height: 400px;
+	margin: 0 auto;
+	background-image: url(/Content/Images/logo.jpg);
+}

@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+    <body>
+        <div id="SiteWrapper">
+            <div id="HeaderWrapper">
+                <div id="HeaderBar">
+                    <div id="icons">
+                        <a id="facebook-icon" href="http://www.facebook.com" target="_blank"><img width="35" src="@Url.Content("~/Content/images/facebook-icon.png")"/></a>
+                    </div>
+                </div>
+            <div id="MainImage">
+                <img id="HeaderImage" src="@Url.Content("~/Content/images/idragons.jpg")"/>
+            </div>
+        </div>
+        @RenderBody()
+        
+        </div>
+        
+        @Scripts.Render("~/bundles/jquery")
+        @RenderSection("scripts", required: false)
+    </body>
+</html>
